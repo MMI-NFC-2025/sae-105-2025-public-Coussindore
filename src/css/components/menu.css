@@ -1,6 +1,3 @@
-/* Pour construire le menu en mobile : 
-On construit le menu tel qu'il sera une fois ouvert.
-On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le menu. */
 .menu {
   position : fixed; /* Fixe le menu en position, il ne défilera pas avec la page : https://developer.mozilla.org/fr/docs/Web/CSS/position#fixed */
   background-color :rgb(255, 255, 255); /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
