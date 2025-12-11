@@ -1,0 +1,21 @@
+/* Conteneur du bouton */
+.cta {
+  display: block;              /* nécessaire pour centrer avec margin auto */
+  width: fit-content;          /* le lien prend juste la taille de l'image */
+  margin: 40px auto;           /* centrer horizontalement et espacement vertical */
+  text-align: center;          /* au cas où il y aurait du texte */
+}
+
+/* Image du bouton */
+.cta img {
+  width: 250px;
+  max-width: 80vw;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cta img:hover {
+  transform: scale(1.05);
+}
