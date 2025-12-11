@@ -1,43 +1,37 @@
 .menu {
-  position : fixed; /* Fixe le menu en position, il ne défilera pas avec la page : https://developer.mozilla.org/fr/docs/Web/CSS/position#fixed */
-  background-color :rgb(255, 255, 255); /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
-  flex; /* Utilise Flexbox pour la mise en page des éléments enfants : https://developer.mozilla.org/fr/docs/Web/CSS/display-inside#flex */
-  top; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
-  bottom; /* Étend le menu jusqu'en bas de la page */
-  left; /* Paositionne le menu à gauche de la page */
-  right; /* Étend le menu jusqu'à droite de la page */
-  transition: margin-right 0.4s;; /* Définit une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération : https://developer.mozilla.org/fr/docs/Web/CSS/transition */
-  opacity: 0; /* Rend le menu complètement transparent : https://developer.mozilla.org/fr/docs/Web/CSS/opacity */
-  visibility: hidden; /* Cache le menu en le rendant invisible : https://developer.mozilla.org/fr/docs/Web/CSS/visibility#hidden  */
+  position : fixed;
+  background-color :rgb(255, 255, 255);
+  flex;
+  top;
+  bottom;
+  left;
+  right;
+  transition: margin-right ;0.4s;
+  opacity: 0; 
+  visibility: hidden;
 }
-/* On se sert de Javascript pour gérer l'ouverture et la fermeture du menu avec l'attribut "aria-hidden" */
+
 .menu[aria-hidden="true"] {
-  visibility: visible; /* Rend le menu visible */
-  opacity: 2; /* Rend le menu complètement opaque */
+  visibility: visible;
+  opacity: 2;
 }
 
-/* On ajoute une classe sur le body pour empêcher le scroll lorsque le menu est ouvert */
 .noscroll {
-  overflow: hidden; /* Empêche le défilement de la page (hidden) */
+  overflow: hidden;
 }
 
-/* Mise en forme du bouton de menu "Hamburger" */
 .menu-btn {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   border: none;
   background-color: transparent;
-  cursor: pointer;
 }
 
-/* Quand le menu est ouvert : icône de fermeture */
 .menu-btn[aria-expanded="true"] {
-  background-image: url("/assets/icons/Close.png"); /* Remplacez avec votre icône de fermeture */
+  background-image: url("/assets/icons/Close.png");
 }
 
 .menu-btn[aria-expanded="false"] {
-  background-image: url("/assets/icons/Menu.png"); /* Remplacez avec votre icône de menu */
+  background-image: url("/assets/icons/Menu.png");
 }
