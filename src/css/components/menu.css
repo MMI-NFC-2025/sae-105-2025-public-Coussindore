@@ -1,8 +1,16 @@
 .menu {
-  background-color :rgb(255, 255, 255);
-  transition: margin-right 0.4s;
-  opacity: 0; 
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 140px;
+  right: 0;
+  width: 100%;
+  height: calc(100vh - 140px);
+  padding-top: 20px;
+  text-align: center;
+  opacity: 0;
   visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 50;
 }
 
 .menu[aria-hidden="true"] {
@@ -29,3 +37,36 @@
 .menu-btn[aria-expanded="false"] {
   background-image: url("/assets/icons/Menu.png");
 } 
+
+.menu__link {
+  font-family: 'Julee', cursive;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block; 
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+  text-align: center;
+}
+
+.menu__item {
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 25px;
+  background-color: #a2c68d;
+  border-radius: 10px; 
+  margin-bottom: 15px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.menu__item:hover {
+  background-color: #8fb870;
+  transform: scale(1.05);
+}

@@ -19,3 +19,9 @@
 .cta img:hover {
   transform: scale(1.05);
 }
+
+.title{
+  font-family: 'Julee', cursive;
+  display: block;
+  text-align: center;
+}

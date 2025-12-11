@@ -5,7 +5,7 @@ toggle.addEventListener("click", () => {
     const isClosed = !isOpen;
     nav.ariaHidden = !isOpen ? "true" : "false";
     toggle.ariaExpanded = isClosed ? "true" : "false";
-    document.body.classList.toggle("no-scroll", isClosed);
+    document.body.classList.toggle("noscroll", isClosed);
 });
 
 const track = document.querySelector('.carousel-track');
@@ -30,5 +30,4 @@ prevBtn.addEventListener('click', () => {
   updateCarousel();
 });
 
-// Ajuster si la fenêtre change de taille
 window.addEventListener('resize', updateCarousel);
