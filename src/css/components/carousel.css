@@ -1,0 +1,39 @@
+.carousel {
+  position: relative;
+  width: 300px; /* Ajustez selon votre design */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.carousel-image {
+  width: 300px; /* même largeur que le conteneur */
+  flex-shrink: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}

@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  height: 140px; /* Ajustez si nécessaire */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background: linear-gradient(
+    90deg,
+    #00A7FF 0%,     /* Bleu à gauche */
+    #6CC7A2 40%,    /* Vert turquoise */
+    #FFE000 100%    /* Jaune à droite */
+  );
+  position: relative;
+  z-index: 10;
+}
+
+/* Logo */
+.header__logo img {
+  height: 120px;
+  width: auto;
+}
+
+/* Conteneur droit (bouton + menu) */
+.header__end {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Positionnement du bouton menu hamburger */
+.header__menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px; /* Espacement entre le bouton et le menu */
+}
+
+/* Positionnement du menu */
+.header__menu {
+  position: absolute;
+  top: 100%; /* Juste en dessous du header */
+  right: 0; /* Aligné à droite */
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: none; /* Masqué par défaut */
+}
+
+/* Afficher le menu lorsqu'il est ouvert */
+.header__menu[aria-hidden="false"] {
+  display: block;
+}
+
+/* Style des liens dans le menu */
+.menu__link {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu__link:hover {
+  background-color: #f0f0f0;
+}
