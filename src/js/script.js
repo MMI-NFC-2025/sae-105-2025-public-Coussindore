@@ -31,3 +31,4 @@ prevBtn.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', updateCarousel);
+

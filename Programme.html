@@ -48,5 +48,47 @@
 
     </div>
   </header>
+  
+  <div class="filters">
+  <select id="filter__genre">
+    <option value="">All Genres</option>
+    <option value="comedy">Comedy</option>
+    <option value="drama">Drama</option>
+    <option value="horror">Horror</option>
+  </select>
+
+  <select id="filter__time">
+    <option value="">Any Time</option>
+    <option value="day">Day</option>
+    <option value="night">Night</option>
+  </select>
+
+  <select id="filter__scene">
+    <option value="">Any Scene</option>
+    <option value="indoor">Indoor</option>
+    <option value="outdoor">Outdoor</option>
+  </select>
+</div>
+
+<div class="profiles">
+  <div class="profile" data-genre="comedy" data-time="day" data-scene="outdoor">Profile A</div>
+  <div class="profile" data-genre="drama" data-time="night" data-scene="indoor">Profile B</div>
+  <div class="profile" data-genre="horror" data-time="night" data-scene="outdoor">Profile C</div>
+</div>
+
+<footer class="footer__container">
+  <div class="footer__link">
+  <a href="Contact.html">Contact</a>
+  <a href="404.html">Mentions légales</a>
+  <a href="InfosPratiques.html">Infos Pratiques</a>
+  </div>
+
+  <div class="footer__socials">
+    <a href="#"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+    <a href="#"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+    <a href="#"><img src="assets/icons/tiktok.png" alt="TikTok"></a>
+  </div>
+</footer>
+<script type="module" src="src/js/filter.js"></script>
 </body>
 </html>
