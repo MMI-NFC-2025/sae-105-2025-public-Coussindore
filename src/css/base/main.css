@@ -41,4 +41,10 @@ p {
   max-width: 100%;
 }
 
-
+.artist__photo img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin:0 auto;
+  
+}
