@@ -1,4 +1,4 @@
-const genreFilter = document.getElementById('filter__genre');
+const genreFilter = document.getElementById('filter__genre'); //Interactions visibel dans http://127.0.0.1:5501/Programme.html
 const timeFilter = document.getElementById('filter__time');
 const sceneFilter = document.getElementById('filter__scene');
 
@@ -11,7 +11,7 @@ filterToggle.addEventListener('click', () => {
 
 const profiles = document.querySelectorAll('.profile');
 
-function applyFilters() {
+function applyFilters() { 
   const genre = genreFilter.value;
   const time = timeFilter.value;
   const scene = sceneFilter.value;
@@ -28,11 +28,9 @@ function applyFilters() {
     }
   });
 
-  // Automatically close filter menu
   filterMenu.classList.remove('open');
 }
 
-// Event listeners
-genreFilter.addEventListener('change', applyFilters);
+genreFilter.addEventListener('change', applyFilters); //en créant et assignant des variables eux différent profils, ca nous permet de caché ceux qui ne contiennet pas les variables recherché.
 timeFilter.addEventListener('change', applyFilters);
 sceneFilter.addEventListener('change', applyFilters);

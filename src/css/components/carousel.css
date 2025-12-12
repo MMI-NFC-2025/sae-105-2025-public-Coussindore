@@ -5,12 +5,12 @@
   margin: 0 auto;
 }
 
-.carousel-track {
+.carousel__track {
   display: flex;
   transition: transform 0.4s ease;
 }
 
-.carousel-image {
+.carousel__image {
   width: 300px; /* même largeur que le conteneur */
   flex-shrink: 0;
   display: block;
@@ -18,7 +18,7 @@
   height: auto;
 }
 
-.carousel-btn {
+.carousel__btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -30,10 +30,10 @@
   z-index: 10;
 }
 
-.carousel-btn.prev {
+.carousel__btn.prev {
   left: 10px;
 }
 
-.carousel-btn.next {
+.carousel__btn.next {
   right: 10px;
 }

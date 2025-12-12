@@ -1,12 +1,10 @@
-/* Conteneur du bouton */
 .cta {
-  display: block;              /* nécessaire pour centrer avec margin auto */
-  width: fit-content;          /* le lien prend juste la taille de l'image */
-  margin: 40px auto;           /* centrer horizontalement et espacement vertical */
-  text-align: center;          /* au cas où il y aurait du texte */
+  display: block;
+  width: fit-content;
+  margin: 40px auto;
+  text-align: center;
 }
 
-/* Image du bouton */
 .cta img {
   width: 250px;
   max-width: 80vw;
@@ -24,6 +22,23 @@
   font-family: 'Julee', cursive;
   display: block;
   text-align: center;
+}
+
+p {
+  margin: 12px 0;
+  padding: 12px 18px;
+  border: 2px solid #78a86b;
+  background: linear-gradient(135deg,#78a86b, gold);
+  color: black;
+  font-size: 16px;
+  border-radius: 14px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+  line-height: 1.5;
+}
+
+.artist__photo {
+  overflow: hidden;
+  max-width: 100%;
 }
 
 

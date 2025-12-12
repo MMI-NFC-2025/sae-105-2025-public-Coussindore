@@ -23,8 +23,9 @@
 
 .card__date {
     margin: 0;
-    color: #bbb;
+    color: black;
     font-size: 0.95rem;
+    text-decoration: none;
 }
 
 .card__place {
