@@ -6,8 +6,8 @@
 - NOM : Philbert
 - PRÉNOM : Théo
 - GROUPE : A1
-- URL du site :
-- URL FIGMA :
+- URL du site : flyingtapfestival.netlify.app 
+- URL FIGMA : https://www.figma.com/design/2E95U9el4d4qhM3P6TBEBJ/SAE-105-Maquette-Mobile?node-id=1-2&t=fQxfpJDwGJFD7KLU-1
 
 ## Sujet
 
