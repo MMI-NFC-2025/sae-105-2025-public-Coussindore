@@ -26,6 +26,7 @@ Soyez attentifs à l'ordre d'import :
 @import "layout/footer.css";
 
 /* Components */
+@import "components/formulaire.css";
 @import "components/carousel.css";
 @import "components/menu.css";
 @import "components/hero.css";
