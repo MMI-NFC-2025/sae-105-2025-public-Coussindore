@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artiste – Template</title>
+
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="src/js/script.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+    <a class="header__logo" href="index.html">
+        <img src="assets/icons/logo.png" alt="Logo du festival">
+    </a>
+    <div class="header__end">
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"></button>
+    </div>
+</header>
+
+<nav class="header__menu menu" id="mainNav" aria-hidden="false">
+  <ul class="menu__list list-unstyled">
+    <li class="menu__item"><a class="menu__link" href="Artiste.html">Artistes</a></li>
+    <li class="menu__item"><a class="menu__link" href="APropos.html">A Propos</a></li>
+    <li class="menu__item"><a class="menu__link" href="Contact.html">Contacts</a></li>
+    <li class="menu__item"><a class="menu__link" href="InfosPratiques.html">Infos Pratiques</a></li>
+    <li class="menu__item"><a class="menu__link" href="Programme.html">Programme</a></li>
+    <li class="menu__item"><a class="menu__link" href="Scènes.html">Scènes</a></li>
+  </ul>
+</nav>
+
+<main class="artist">
+
+    <!-- Nom de l'artiste -->
+    <h1 class="title">Nom de l'artiste</h1>
+
+    <!-- Photo principale -->
+    <div class="artist__main-photo">
+        <img src="assets/artistes/photo.jpg" alt="Photo de l'artiste">
+    </div>
+
+    <section class="artist__info">
+        <p><strong>Dates de représentation :</strong> 6 Juin 2026</p>
+        <p><strong>Scène :</strong> Scène Extérieur</p>
+    </section>
+
+    <section class="artist__description">
+        <h2 class="title">À propos de l'artiste</h2>
+        <p>
+            Stéphane “SkyStep” Shoes est un danseur de claquettes visionnaire qui a révolutionné la discipline en y intégrant des drones lumineux.
+            Grâce à une synchronisation millimétrée entre ses pas et la chorégraphie aérienne, il crée un spectacle où chaque claquement déclenche une réponse dans le ciel.
+            Entre technique pure et poésie futuriste, Stéphane transforme la scène en un véritable tableau vivant : les drones tracent des formes, répondent au rythme et enveloppent le danseur dans une aura lumineuse.
+            Reconnu comme l’un des pionniers de la tap-dance aérienne, il mêle tradition et innovation pour offrir une expérience visuelle unique, hypnotique et accessible à tous les publics.
+        </p>
+    </section>
+
+    <section class="artist__gallery">
+        <h2 class="title">Galerie photo</h2>
+        <div class="gallery__grid">
+            <img src="assets/artistes/gallery1.jpg" alt="Photo 1">
+            <img src="assets/artistes/gallery2.jpg" alt="Photo 2">
+            <img src="assets/artistes/gallery3.jpg" alt="Photo 3">
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer__container">
+    <div class="footer__link">
+      <a href="Contact.html">Contact</a>
+      <a href="404.html">Mentions légales</a>
+      <a href="InfosPratiques.html">Infos Pratiques</a>
+    </div>
+
+    <div class="footer__socials">
+        <a href="#"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="assets/icons/tiktok.png" alt="TikTok"></a>
+    </div>
+</footer>
+
+</body>
+</html>

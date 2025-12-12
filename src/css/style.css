@@ -19,6 +19,7 @@ Soyez attentifs à l'ordre d'import :
 /* Base */
 @import "base/main.css";
 @import "base/media.css";
+@import "base/error404.css";
 
 /* Layout */
 @import "layout/header.css";

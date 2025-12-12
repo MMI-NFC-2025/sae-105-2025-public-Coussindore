@@ -1,0 +1,38 @@
+.error404__container {
+    text-align: center;
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.error404__title {
+    font-size: 8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: var(--primary-color, #000);
+}
+
+.error404__text {
+    font-size: 1.4rem;
+    max-width: 600px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.error404__btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--primary-color, #000);
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.error404__btn:hover {
+    background: var(--primary-color-dark, #222);
+    transform: translateY(-3px);
+}

@@ -1,14 +1,14 @@
 .header {
-  height: 140px; /* Ajustez si nécessaire */
+  height: 140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
   background: linear-gradient(
     90deg,
-    #00A7FF 0%,     /* Bleu à gauche */
-    #6CC7A2 40%,    /* Vert turquoise */
-    #FFE000 100%    /* Jaune à droite */
+    #00A7FF 0%,
+    #6CC7A2 40%,
+    #FFE000 100%
   );
   position: relative;
   z-index: 10;

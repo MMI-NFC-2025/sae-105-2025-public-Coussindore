@@ -1,8 +1,41 @@
 .profile {
   padding: 10px;
   margin: 10px 0;
-  background: #eee;
+  background: #FFE000;
+  display: block;
+  cursor: pointer;
+  font-family: 'Julee', cursive;
+  text-decoration: none;
+  color:black; ;
+  border: 3px black solid;
 }
+
 .hidden {
   display: none;
 }
+
+.filter__toggle {
+  background: #222;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.filters {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.filters.open {
+  max-height: 300px;
+}
+
+
