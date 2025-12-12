@@ -48,3 +48,11 @@ p {
   margin:0 auto;
   
 }
+
+.artist__gallery img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin:0 auto;
+  
+}
